@@ -1,0 +1,61 @@
+#FRAME
+push
+line
+10 10 0 10 490 0
+line
+10 490 0 490 490 0
+line
+490 490 0 490 10 0
+line
+490 10 0 10 10 0
+push
+line
+20 20 0 20 480 0
+line
+20 480 0 480 480 0
+line
+480 480 0 480 20 0
+line
+480 20 0 20 20 0
+pop
+pop
+#FACE
+push
+move
+250 200 0
+rotate
+x 90
+torus
+0 0 0 50 100
+pop
+#LEFT EAR
+push
+move
+150 300 0
+rotate
+z 45
+torus
+0 0 0 25 50
+push
+move
+0 100 0
+sphere
+0 0 0 50
+pop
+pop
+#RIGHT EAR
+push
+move
+350 300 0
+rotate
+z -45
+torus
+0 0 0 25 50
+push
+move
+0 100 0
+sphere
+0 0 0 50
+display
+save
+cstack2.png
